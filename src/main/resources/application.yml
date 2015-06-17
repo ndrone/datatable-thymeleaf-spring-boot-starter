@@ -1,0 +1,7 @@
+# Application Configuration For initializr
+
+# Global Configuration
+logging:
+  level:
+    com.github.dandelion: DEBUG
+    com.github.dandelion.datatables: DEBUG
