@@ -12,7 +12,9 @@ The simpliest application for show how to setup Dandelion-datatables when using 
  
 ## Running this sample
  Using __Maven__:
+
     `mvn clean package`
-    `java -jar target/datatables-thymeleaf-spring-boot-starter-0.0.1-SNAPSHOT.jar`
+
+    `java -jar target/datatables-thymeleaf-spring-boot-starter-0.0.2-SNAPSHOT.jar`
     
  You then can access the sample here: [http://localhost:8080/table] (http://localhost:8080/table)
