@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:dt="http://www.thymeleaf.org/dandelion/datatables">
+<head></head>
+<body>
+<div class="span12">
+    <table id="myTableId" dt:table="true">
+        <thead>
+            <tr>
+                <th>Id</th>
+                <th>LastName</th>
+                <th>FirstName</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr th:each="person : ${persons}">
+                <td th:text="${person?.id}">1</td>
+                <td th:text="${person?.lastName}">Doe</td>
+                <td th:text="${person?.firstName}">John</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+</body>
+</html>
