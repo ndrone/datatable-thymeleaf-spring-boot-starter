@@ -6,17 +6,17 @@ The simpliest application for show how to setup Dandelion-datatables when using 
 ## Technology Stack
 
  - Java 1.8
- - Spring Boot 1.3.3.RELEASE
- - Thymeleaf 2.1.4.RELEASE
+ - Spring Boot 1.4.0.RELEASE
+ - Thymeleaf 2.1.5.RELEASE
  - datatables-thymeleaf 1.1.0
  - dandelion-thymeleaf 1.1.1
  - dandelion-core 1.1.1
- 
+
 ## Running this sample
  Using __Maven__:
 
     `mvn clean package`
 
-    `java -jar target/datatables-thymeleaf-spring-boot-starter-0.0.2-SNAPSHOT.jar`
-    
+    `java -jar target/datatables-thymeleaf-spring-boot-starter-0.0.3-SNAPSHOT.jar`
+
  You then can access the sample here: [http://localhost:8080/table] (http://localhost:8080/table)
