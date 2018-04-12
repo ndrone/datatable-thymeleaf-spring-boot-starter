@@ -1,13 +1,13 @@
 datatables-thymeleaf-spring-boot-starter
 ========================================
 
-The simpliest application for show how to setup Dandelion-datatables when using Thymeleaf and Spring Boot
+The simplest application for show how to setup Dandelion-datatables when using Thymeleaf and Spring Boot
 
 ## Technology Stack
 
  - Java 1.8
- - Spring Boot 1.5.3.RELEASE
- - Thymeleaf 2.1.5.RELEASE
+ - Spring Boot 1.5.11.RELEASE
+ - Thymeleaf 2.1.6.RELEASE
  - datatables-thymeleaf 1.1.0
  - dandelion-thymeleaf 1.1.1
  - dandelion-core 1.1.1
